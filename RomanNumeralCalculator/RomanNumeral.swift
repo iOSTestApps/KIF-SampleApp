@@ -9,7 +9,7 @@
 import Foundation
 
 // modified from : https://gist.github.com/kumo/a8e1cb1f4b7cff1548c7
-func toRoman(number: Int) -> String {
+func toRoman(_ number: Int) -> String {
 
     if (number == 0) {
         return ""
@@ -25,7 +25,7 @@ func toRoman(number: Int) -> String {
     var romanValue = ""
     var startingValue = number
 
-    for (index, romanChar) in romanValues.enumerate() {
+    for (index, romanChar) in romanValues.enumerated() {
         let arabicValue = arabicValues[index]
 
         let div = startingValue / arabicValue

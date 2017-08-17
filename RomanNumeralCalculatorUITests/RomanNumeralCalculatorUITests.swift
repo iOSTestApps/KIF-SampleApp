@@ -32,7 +32,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         
         
-        XCUIDevice.sharedDevice().orientation = .Portrait
+        XCUIDevice.shared().orientation = .portrait
         
         let app = XCUIApplication()
         let iButton = app.buttons["I"]
@@ -52,8 +52,8 @@ class RomanNumeralCalculatorUITests: XCTestCase {
 
 
 
-        expectationForPredicate(exists, evaluatedWithObject: label, handler: nil)
-        waitForExpectationsWithTimeout(30, handler: nil)
+        expectation(for: exists, evaluatedWith: label, handler: nil)
+        waitForExpectations(timeout: 30, handler: nil)
 
         print(app.debugDescription)
         print("label title = " + (label.value as! String));

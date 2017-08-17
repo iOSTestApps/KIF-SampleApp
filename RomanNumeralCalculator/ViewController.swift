@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
 
 
-    func handleButton(value: Int) {
+    func handleButton(_ value: Int) {
         total += value * signOfNextOperation
         update()
     }
@@ -46,45 +46,45 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var buttonClear: UIButton!
 
-    @IBAction func actionI(sender: AnyObject) {
+    @IBAction func actionI(_ sender: AnyObject) {
         handleButton(1)
     }
 
-    @IBAction func actionV(sender: AnyObject) {
+    @IBAction func actionV(_ sender: AnyObject) {
         handleButton(5)
     }
 
-    @IBAction func actionX(sender: AnyObject) {
+    @IBAction func actionX(_ sender: AnyObject) {
         handleButton(10)
     }
 
-    @IBAction func actionL(sender: AnyObject) {
+    @IBAction func actionL(_ sender: AnyObject) {
         handleButton(50)
     }
 
 
-    @IBAction func actionC(sender: AnyObject) {
+    @IBAction func actionC(_ sender: AnyObject) {
         handleButton(100)
     }
 
-    @IBAction func actionD(sender: AnyObject) {
+    @IBAction func actionD(_ sender: AnyObject) {
         [0][1]
         handleButton(500)
     }
 
-    @IBAction func actionM(sender: AnyObject) {
+    @IBAction func actionM(_ sender: AnyObject) {
         handleButton(1000)
     }
 
-    @IBAction func actionPlus(sender: AnyObject) {
+    @IBAction func actionPlus(_ sender: AnyObject) {
         signOfNextOperation = 1
     }
 
-    @IBAction func actionMinus(sender: AnyObject) {
+    @IBAction func actionMinus(_ sender: AnyObject) {
         signOfNextOperation = -1
     }
 
-    @IBAction func actionClear(sender: AnyObject) {
+    @IBAction func actionClear(_ sender: AnyObject) {
         total = 0
         update()
     }
