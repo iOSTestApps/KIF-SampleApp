@@ -1,11 +1,3 @@
-//
-//  RomanNumeral.swift
-//  RomanNumeralCalculator
-//
-//  Created by Chris on 2016-09-07.
-//  Copyright © 2016 buddybuild. All rights reserved.
-//
-
 import Foundation
 
 // modified from : https://gist.github.com/kumo/a8e1cb1f4b7cff1548c7
@@ -34,7 +26,6 @@ func toRoman(_ number: Int) -> String {
         {
             for _ in 0..<div
             {
-                //println("Should add \(romanChar) to string")
                 romanValue += romanChar
             }
 

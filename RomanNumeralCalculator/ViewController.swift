@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  RomanNumeralCalculator
-//
-//  Created by Chris on 2016-09-07.
-//  Copyright © 2016 buddybuild. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -14,7 +6,6 @@ class ViewController: UIViewController {
     var signOfNextOperation: Int = 1;
 
     func update() {
-        //resultLabel.text = String(total)
         resultLabel.text = toRoman(total)
     }
 

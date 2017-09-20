@@ -1,11 +1,3 @@
-//
-//  RomanNumeralCalculatorUITests.swift
-//  RomanNumeralCalculatorUITests
-//
-//  Created by Chris on 2016-09-07.
-//  Copyright © 2016 buddybuild. All rights reserved.
-//
-
 import XCTest
 
 class RomanNumeralCalculatorUITests: XCTestCase {
