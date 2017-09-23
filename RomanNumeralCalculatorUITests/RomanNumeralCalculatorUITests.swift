@@ -1,4 +1,5 @@
 import XCTest
+import BuddyBuildSDK
 
 class RomanNumeralCalculatorUITests: XCTestCase {
         
@@ -7,9 +8,13 @@ class RomanNumeralCalculatorUITests: XCTestCase {
 
         continueAfterFailure = false
         XCUIApplication().launch()
+
+        BuddyBuildSDK.startUITests()
     }
     
     override func tearDown() {
+        BuddyBuildSDK.stopUITests()
+        
         super.tearDown()
     }
     
