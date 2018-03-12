@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RomanNumeralCalculator_KIF_Acceptance_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RomanNumeralCalculator_KIF_Acceptance_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_KIF_Acceptance_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_KIF_Acceptance_TestsVersionString[];
 

@@ -25,6 +25,7 @@
 		8D7967186EFA937CA3ACDFDB /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B5FEF40F320BA26713E63E /* BuddyBuildSDK.framework */; };
 		9C09D0C1B46C7C0346FD558C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445A0CFC295BD66D6716610D /* QuartzCore.framework */; };
 		B98AD3B630A5864CB941EA06 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E167E9AD716538F4A35C6A /* CoreMedia.framework */; };
+		C62F399EC282C932A50190F2 /* Pods_KIF_Acceptance_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B4F6730CB0608E5338E3FF /* Pods_KIF_Acceptance_Tests.framework */; };
 		C74107C97ECCAFC5E90BC4A2 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75088E845F77002DA04FFB59 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework */; };
 		ED1F86B07836738F9AA273E5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66493D2D9E2C0D831ED1698A /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		445A0CFC295BD66D6716610D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		503536723136A7358467325D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		66493D2D9E2C0D831ED1698A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		67E1BD48B2376FACEF1B1D5E /* Pods-KIF Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIF Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
 		684D1C015E14D18988AD2AC8 /* Pods-RomanNumeralCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 		75088E845F77002DA04FFB59 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1DEADC2056B2C300DFA7DD /* KIF Acceptance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KIF Acceptance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,8 @@
 		A106E85CA84E5A010651551D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C0E167E9AD716538F4A35C6A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		D942D8D5981E1564817AD6AD /* Pods_RomanNumeralCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6EA1062CAE3B0A43EDD7F0 /* Pods-KIF Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIF Acceptance Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B4F6730CB0608E5338E3FF /* Pods_KIF_Acceptance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIF_Acceptance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7D0B392275B1AF1CD273FC /* Pods-RomanNumeralCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,7 @@
 			files = (
 				C74107C97ECCAFC5E90BC4A2 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework in Frameworks */,
 				7A1DEAE92056B67B00DFA7DD /* BuddyBuildSDK.framework in Frameworks */,
+				C62F399EC282C932A50190F2 /* Pods_KIF_Acceptance_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +113,8 @@
 				FC7D0B392275B1AF1CD273FC /* Pods-RomanNumeralCalculator.release.xcconfig */,
 				97CDC5997E2E8A814D1860D4 /* Pods-RomanNumeralCalculator-KIF Acceptance Tests.debug.xcconfig */,
 				26D6A1FF70A69D0A05D3F02D /* Pods-RomanNumeralCalculator-KIF Acceptance Tests.release.xcconfig */,
+				EA6EA1062CAE3B0A43EDD7F0 /* Pods-KIF Acceptance Tests.debug.xcconfig */,
+				67E1BD48B2376FACEF1B1D5E /* Pods-KIF Acceptance Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -172,6 +179,7 @@
 				849AB659B74327C8B712A57F /* CoreVideo.framework */,
 				D942D8D5981E1564817AD6AD /* Pods_RomanNumeralCalculator.framework */,
 				75088E845F77002DA04FFB59 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework */,
+				F1B4F6730CB0608E5338E3FF /* Pods_KIF_Acceptance_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -296,7 +304,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RomanNumeralCalculator-KIF Acceptance Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KIF Acceptance Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,7 +332,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculator-KIF Acceptance Tests/Pods-RomanNumeralCalculator-KIF Acceptance Tests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -333,7 +341,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculator-KIF Acceptance Tests/Pods-RomanNumeralCalculator-KIF Acceptance Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5F57F1D094B3ED954FA79F30 /* [CP] Embed Pods Frameworks */ = {
@@ -381,7 +389,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculator-KIF Acceptance Tests/Pods-RomanNumeralCalculator-KIF Acceptance Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -437,7 +445,7 @@
 /* Begin XCBuildConfiguration section */
 		7A1DEAE42056B2C300DFA7DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97CDC5997E2E8A814D1860D4 /* Pods-RomanNumeralCalculator-KIF Acceptance Tests.debug.xcconfig */;
+			baseConfigurationReference = EA6EA1062CAE3B0A43EDD7F0 /* Pods-KIF Acceptance Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -478,7 +486,7 @@
 		};
 		7A1DEAE52056B2C300DFA7DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26D6A1FF70A69D0A05D3F02D /* Pods-RomanNumeralCalculator-KIF Acceptance Tests.release.xcconfig */;
+			baseConfigurationReference = 67E1BD48B2376FACEF1B1D5E /* Pods-KIF Acceptance Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
