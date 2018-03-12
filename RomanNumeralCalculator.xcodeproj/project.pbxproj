@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED41006857B220C7DD67149 /* Pods_RomanNumeralCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D942D8D5981E1564817AD6AD /* Pods_RomanNumeralCalculator.framework */; };
 		2EFC127341FE092D84C9AF47 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A106E85CA84E5A010651551D /* SystemConfiguration.framework */; };
 		3913A6D4BB90A2479C16B12C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A020AB1F8CFAEF5EBD7BD /* CoreTelephony.framework */; };
 		65273868397969EEE77A7807 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503536723136A7358467325D /* CoreText.framework */; };
@@ -25,8 +24,6 @@
 		8D7967186EFA937CA3ACDFDB /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B5FEF40F320BA26713E63E /* BuddyBuildSDK.framework */; };
 		9C09D0C1B46C7C0346FD558C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445A0CFC295BD66D6716610D /* QuartzCore.framework */; };
 		B98AD3B630A5864CB941EA06 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E167E9AD716538F4A35C6A /* CoreMedia.framework */; };
-		C62F399EC282C932A50190F2 /* Pods_KIF_Acceptance_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B4F6730CB0608E5338E3FF /* Pods_KIF_Acceptance_Tests.framework */; };
-		C74107C97ECCAFC5E90BC4A2 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75088E845F77002DA04FFB59 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework */; };
 		ED1F86B07836738F9AA273E5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66493D2D9E2C0D831ED1698A /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,14 +41,10 @@
 		0E0719F0D2A11A3517058FD7 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		19AE8408A418C630D456E74A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		19B5FEF40F320BA26713E63E /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
-		26D6A1FF70A69D0A05D3F02D /* Pods-RomanNumeralCalculator-KIF Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculator-KIF Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculator-KIF Acceptance Tests/Pods-RomanNumeralCalculator-KIF Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
 		320A020AB1F8CFAEF5EBD7BD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		445A0CFC295BD66D6716610D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		503536723136A7358467325D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		66493D2D9E2C0D831ED1698A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		67E1BD48B2376FACEF1B1D5E /* Pods-KIF Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIF Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
-		684D1C015E14D18988AD2AC8 /* Pods-RomanNumeralCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator.debug.xcconfig"; sourceTree = "<group>"; };
-		75088E845F77002DA04FFB59 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1DEADC2056B2C300DFA7DD /* KIF Acceptance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KIF Acceptance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1DEADE2056B2C300DFA7DD /* KIF_Acceptance_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIF_Acceptance_Tests.swift; sourceTree = "<group>"; };
 		7A1DEAE02056B2C300DFA7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,13 +59,8 @@
 		835AECBC1D80ED8F0046555C /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
 		835F65691D87A7B400B33AE0 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = SOURCE_ROOT; };
 		849AB659B74327C8B712A57F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		97CDC5997E2E8A814D1860D4 /* Pods-RomanNumeralCalculator-KIF Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculator-KIF Acceptance Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculator-KIF Acceptance Tests/Pods-RomanNumeralCalculator-KIF Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A106E85CA84E5A010651551D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C0E167E9AD716538F4A35C6A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		D942D8D5981E1564817AD6AD /* Pods_RomanNumeralCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomanNumeralCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA6EA1062CAE3B0A43EDD7F0 /* Pods-KIF Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIF Acceptance Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F1B4F6730CB0608E5338E3FF /* Pods_KIF_Acceptance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIF_Acceptance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC7D0B392275B1AF1CD273FC /* Pods-RomanNumeralCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanNumeralCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74107C97ECCAFC5E90BC4A2 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework in Frameworks */,
 				7A1DEAE92056B67B00DFA7DD /* BuddyBuildSDK.framework in Frameworks */,
-				C62F399EC282C932A50190F2 /* Pods_KIF_Acceptance_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,26 +85,12 @@
 				6AAB5C36253C9E61119D9E6E /* AVFoundation.framework in Frameworks */,
 				B98AD3B630A5864CB941EA06 /* CoreMedia.framework in Frameworks */,
 				6FF84C257185A189A08AF351 /* CoreVideo.framework in Frameworks */,
-				0ED41006857B220C7DD67149 /* Pods_RomanNumeralCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		69EBED5C47FCB0CD6E579140 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				684D1C015E14D18988AD2AC8 /* Pods-RomanNumeralCalculator.debug.xcconfig */,
-				FC7D0B392275B1AF1CD273FC /* Pods-RomanNumeralCalculator.release.xcconfig */,
-				97CDC5997E2E8A814D1860D4 /* Pods-RomanNumeralCalculator-KIF Acceptance Tests.debug.xcconfig */,
-				26D6A1FF70A69D0A05D3F02D /* Pods-RomanNumeralCalculator-KIF Acceptance Tests.release.xcconfig */,
-				EA6EA1062CAE3B0A43EDD7F0 /* Pods-KIF Acceptance Tests.debug.xcconfig */,
-				67E1BD48B2376FACEF1B1D5E /* Pods-KIF Acceptance Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7A1DEADD2056B2C300DFA7DD /* KIF Acceptance Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +109,6 @@
 				835AEC8C1D80DD800046555C /* Products */,
 				84C013C0B11AB9F95B36881F /* Frameworks */,
 				0E0719F0D2A11A3517058FD7 /* Bridging-Header.h */,
-				69EBED5C47FCB0CD6E579140 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,9 +148,6 @@
 				19AE8408A418C630D456E74A /* AVFoundation.framework */,
 				C0E167E9AD716538F4A35C6A /* CoreMedia.framework */,
 				849AB659B74327C8B712A57F /* CoreVideo.framework */,
-				D942D8D5981E1564817AD6AD /* Pods_RomanNumeralCalculator.framework */,
-				75088E845F77002DA04FFB59 /* Pods_RomanNumeralCalculator_KIF_Acceptance_Tests.framework */,
-				F1B4F6730CB0608E5338E3FF /* Pods_KIF_Acceptance_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,12 +159,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A1DEAE32056B2C300DFA7DD /* Build configuration list for PBXNativeTarget "KIF Acceptance Tests" */;
 			buildPhases = (
-				37587E013BC8F1C98A270D0D /* [CP] Check Pods Manifest.lock */,
 				7A1DEAD82056B2C300DFA7DD /* Sources */,
 				7A1DEAD92056B2C300DFA7DD /* Frameworks */,
 				7A1DEADA2056B2C300DFA7DD /* Resources */,
-				5C257265AA717C7B0B10669D /* [CP] Embed Pods Frameworks */,
-				E6C8C8EEBC85AEF003235393 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,12 +177,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 835AECB31D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculator" */;
 			buildPhases = (
-				84523E93763E6AB53A102011 /* [CP] Check Pods Manifest.lock */,
 				835AEC871D80DD7F0046555C /* Sources */,
 				835AEC881D80DD7F0046555C /* Frameworks */,
 				835AEC891D80DD7F0046555C /* Resources */,
-				5F57F1D094B3ED954FA79F30 /* [CP] Embed Pods Frameworks */,
-				3907BB80346DF49638824827 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,108 +254,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		37587E013BC8F1C98A270D0D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KIF Acceptance Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3907BB80346DF49638824827 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5C257265AA717C7B0B10669D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F57F1D094B3ED954FA79F30 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomanNumeralCalculator/Pods-RomanNumeralCalculator-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		84523E93763E6AB53A102011 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RomanNumeralCalculator-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6C8C8EEBC85AEF003235393 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIF Acceptance Tests/Pods-KIF Acceptance Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		7A1DEAD82056B2C300DFA7DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -445,7 +305,6 @@
 /* Begin XCBuildConfiguration section */
 		7A1DEAE42056B2C300DFA7DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA6EA1062CAE3B0A43EDD7F0 /* Pods-KIF Acceptance Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -486,7 +345,6 @@
 		};
 		7A1DEAE52056B2C300DFA7DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67E1BD48B2376FACEF1B1D5E /* Pods-KIF Acceptance Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -615,7 +473,6 @@
 		};
 		835AECB41D80DD800046555C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 684D1C015E14D18988AD2AC8 /* Pods-RomanNumeralCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -637,7 +494,6 @@
 		};
 		835AECB51D80DD800046555C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC7D0B392275B1AF1CD273FC /* Pods-RomanNumeralCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
